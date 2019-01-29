@@ -30,7 +30,7 @@ class Carousel {
             this.initSlides();
         });
         this.elements.next.addEventListener('click', () => {
-            this.elements.slides.appendChild(this.slides[this.currentIndex]);
+            this.elements.slides.append(this.slides[this.currentIndex]);
             this.initSlides();
         });
     }

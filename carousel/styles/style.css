@@ -3,7 +3,7 @@ body {
 }
 
 .carousel-wrap {
-  max-width: 1080px;
+  max-width: 1115px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -28,21 +28,24 @@ body {
 
 .slides > .slide {
   padding: 10px;
-  margin: 0 10px;
+  margin: 0 30px;
   display: inline-flex;
   align-items: center;
   width: 300px;
   height: 200px;
   border: 1px solid #ABABAB;
   vertical-align: top;
+  transition: all 300ms linear 0s;
 }
 
 .slides > .slide:first-child {
   margin-left: 0;
+  width: 250px;
 }
 
-.slides > .slide:last-child {
+.slides > .slide:nth-child(3) {
   margin-right: 0;
+  width: 250px;
 }
 
 .slides > .slide img {
